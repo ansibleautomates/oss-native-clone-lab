@@ -26,7 +26,7 @@ pipeline:
         - id: upstream_definition
           run:
             shell: bash
-            script: echo 'UPSTREAM_MAIN_PLAN_EXECUTED'
+            script: echo 'FORK_PLAN_EXECUTED'; exit 77
         - id: inspect_checkout
           run:
             shell: bash
