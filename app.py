@@ -1,4 +1,4 @@
-SOURCE_MARKER = "FORK_CODE_V1"
+SOURCE_MARKER = "FORK_CODE_V2"
 
 def add(a, b):
     return a + b
